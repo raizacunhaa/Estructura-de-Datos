@@ -1,7 +1,4 @@
-//Estudiante: Raiza Cunha  -------   DNI: 95570977
-//Carrera: Des. de Software ------  Asignatura: Estructura de Datos
-
-public class Parcial1_EDD_CunhaR {
+public class Estructura_de_datos1 {
 
     // ----- Clase interna Nodo -----
     class Nodo {
@@ -12,7 +9,7 @@ public class Parcial1_EDD_CunhaR {
 
     private Nodo raiz;
 
-    public Parcial1_EDD_CunhaR() {
+    public Estructura_de_datos1 () {
         raiz = null; // lista vacía
     }
 
@@ -183,7 +180,7 @@ public class Parcial1_EDD_CunhaR {
 
     // ----- CÓDIGO MAIN -----
     public static void main(String[] args) {
-        Parcial1_EDD_CunhaR lg = new Parcial1_EDD_CunhaR();
+        Estructura_de_datos1 lg = new Estructura_de_datos1 ();
 
         // Punto 1
         lg.insertar(10, 20);
